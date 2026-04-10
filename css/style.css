@@ -1,0 +1,38 @@
+/*ESTILOS GENERALES*/
+* {
+    box-sizing: border-box;
+}
+
+.espacio{
+    margin: 10px;
+}
+
+/*ENCABEZADO*/
+.borde{
+    background-color: darkgrey;
+    border: 2px black solid;
+}
+.tam{
+    height: 60px;
+}
+
+/*ENCABEZADO CONTENIDO*/
+.bordeC{
+    background-color: gray;
+    border: 2px black solid;
+}
+.tamC{
+    height: 50px;
+    padding: 2px;
+}
+.tamD{
+    height: 40px;
+}
+.justy1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*BANNER*/
+
