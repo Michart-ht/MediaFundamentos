@@ -3,6 +3,12 @@
     box-sizing: border-box;
 }
 
+
+
+
+/*HOME*/
+
+
 .alt{
     margin-top: 10px;
 }
@@ -117,6 +123,97 @@
     height: 20px;
 }
 
+/*FIN DEL HOME*/
 
-/*CORRUSEL*/
 
+
+/*LA MULTIMEDIA*/
+.justy4{
+    display: flex;
+}
+.alt1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pad{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tamK{
+    height: 100px;
+}
+.tamW{
+    height: 450px;
+}
+.tamW1{
+    height: 300px;
+}
+.tamW11{
+    height: 80px;
+}
+.tamW12{
+    height: 220px;
+}
+.tamW2{
+    height: 100px;
+}
+
+/*carrusel*/
+
+.DefC{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.DefT{
+    display: flex;
+    transition: transform 0.4s ease;
+}
+.DefIt{
+    min-width: 100%;
+    text-align: center;
+}
+
+/*---------*/
+.tama{
+    height: 300px;
+    width: 30%;
+    margin-left: 15px;
+}
+.justy5{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.tama1{
+    height: 80px;
+    width: 100%;
+}
+.justy6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tamR{
+    height: 500px;
+    margin-top: 10px;
+}
+.tamR1{
+    height: 80px;
+}
+.tamS6{
+    height: 950px;
+    margin-top: 10px;
+}
+.tamN{
+    height: 600px;
+    margin-top: 10px;
+}
+.tamN1{
+    height: 80px;
+}
+.tamN2{
+    height: 520px;
+}
