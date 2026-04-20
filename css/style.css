@@ -3,8 +3,12 @@
     box-sizing: border-box;
 }
 
-.espacio{
-    margin: 10px;
+.alt{
+    margin-top: 10px;
+}
+.pat{
+    padding: 15px;
+    margin: 20px;
 }
 
 /*ENCABEZADO*/
@@ -35,4 +39,84 @@
 }
 
 /*BANNER*/
+.justy2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tamS1{
+    height: 500px;
+    margin-top: 10px;
+}
+.tamS2{
+    height: 400px;
+}
+.tamS21{
+    height: 150px;
+}
+.tamS22{
+    height: 150px;
+}
+.tamS23{
+    height: 70px;
+}
+.tamS3{
+    height: 350px;
+}
+
+/*CONTENIDOS*/
+.tamT1{
+    height: 350px;
+    margin-top: 10px;
+}
+.tamT2{
+    height: 250px;
+}
+.tamT3{
+    height: 230px;
+}
+.tamT4{
+    height: 80px;
+}
+.bordeR{
+    background-color: gray;
+    border: 2px black solid;
+    border-radius: 100px;
+    height: 200px;
+    width: 50%;
+}
+.bordeR:hover{
+    background-color: gainsboro;
+    border: 2px black solid;
+    border-radius: 100px;
+    transform: scale(105%);
+}
+.justy3{
+    display: flex;
+}
+.M{
+    margin-bottom: 10px;
+}
+
+/*FOOTER*/
+.tamM1{
+    height: 300px;
+    margin-top: 10px;
+}
+.tamM2{
+    height: 200px;
+}
+.tamM21{
+    height: 180px;
+}
+.tamM3{
+    height: 50px;
+}
+.tamM31{
+    height: 20px;
+}
+
+
+/*CORRUSEL*/
 
