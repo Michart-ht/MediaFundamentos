@@ -57,12 +57,16 @@
 }
 .tamS2{
     height: 400px;
+    overflow: hidden;
 }
 .tamS21{
     height: 150px;
 }
 .tamS22{
     height: 150px;
+}
+.tamS221{
+    height: 350px;
 }
 .tamS23{
     height: 70px;
@@ -217,3 +221,38 @@
 .tamN2{
     height: 520px;
 }
+.po{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 2px black solid;
+}
+
+
+
+/*IMAGEN*/
+.imgk{
+    width: 100%;
+    height: 100%;
+}
+.imgH{
+    background: url("../images/sin_imagen.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+.tamL{
+    height: 600px;
+    margin-top: 10px;
+}
+.tamL1{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tamL2{
+    height: 45px;
+}
+
