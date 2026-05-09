@@ -5,7 +5,6 @@
 
 
 
-
 /*HOME*/
 
 
@@ -254,5 +253,140 @@
 }
 .tamL2{
     height: 45px;
+}
+
+
+
+
+
+
+
+
+
+/*Estilos para Encabezado*/
+
+/*Generales*/
+.justifica_Enca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padEn{
+    padding: 10px;
+    position: sticky;
+    z-index: 1000;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+.BordeEn{
+    border-bottom: 2px solid #332765;
+}
+
+
+/*Logo*/
+.ImaLogo{
+    width: 100%;
+}
+
+
+/*Botones menu*/
+.justifica_Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BotonMenu{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: none;
+    border: none;
+}
+
+
+.BotonHome{
+    width: 100%;
+}
+.contHome:hover{
+    content: url("../images/barra_footer/BhomeH.png");
+    width: 100%;
+}
+
+
+.BotonMulti{
+    width: 100%;
+}
+.contMulti:hover{
+    content: url("../images/barra_footer/BMultiH.png");
+    width: 100%;
+}
+
+
+.BotonInge{
+    width: 100%;
+}
+.contInge:hover{
+    content: url("../images/barra_footer/BIngeH.png");
+    width: 100%;
+}
+
+
+.BotonFunda{
+    width: 100%;
+}
+.contFunda:hover{
+    content: url("../images/barra_footer/BFundaH.png");
+    width: 100%;
+}
+
+
+
+
+
+
+/*HOME*/
+.BotonCam{
+    width: 80%;
+}
+
+
+
+.fondoC1{
+    background-image: url("../images/HOME/images/multi_ima.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+.fondoC2{
+    background-image: url("../images/HOME/images/Inge_ima.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+.fondoC3{
+    background-image: url("../images/HOME/images/Funda_image.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+
+.BotonAn{
+    position:absolute;
+    top:0;
+    bottom:0;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:7%;
+    background:0 0;
+    border:0;
+    opacity:.5;
+    transition:opacity .15s ease
+}
+.BotonAn:hover{
+    opacity:.9
 }
 
