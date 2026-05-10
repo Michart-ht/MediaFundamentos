@@ -2,7 +2,12 @@
 * {
     box-sizing: border-box;
 }
-
+h1,h2,h3,h4,h5,h6{
+    font-family: 'PESTARA';
+}
+p{
+    font-family: 'Overlock';
+}
 
 
 /*HOME*/
@@ -263,9 +268,9 @@
 
 
 
-/*Estilos para Encabezado*/
+/*.................................................Encabezado..................................................*/
 
-/*Generales*/
+/*.................................................Generales...................................................*/
 .justifica_Enca{
     display: flex;
     justify-content: center;
@@ -284,13 +289,13 @@
 }
 
 
-/*Logo*/
+/*.................................................Logo........................................................*/
 .ImaLogo{
     width: 100%;
 }
 
 
-/*Botones menu*/
+/*..............................................Botones menu...................................................*/
 .justifica_Menu{
     display: flex;
     justify-content: center;
@@ -345,31 +350,188 @@
 
 
 
+/*...............................................FOOTER..................................................*/
 
+/*..............................................Generales................................................*/
+.justifica_Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marFooter{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 25px;
+    padding-bottom: 10px;
+    background-color: #FDB743;
+}
 
-/*HOME*/
-.BotonCam{
+/*..............................................Primera caja.............................................*/
+.marFooter1{
+    padding: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #332765;
+}
+.justifica_Footer1{
+    display: flex;
+    justify-content: center;
+}
+.CajaCoFooter{
+    width: 30%;
+    padding: 30px;
+}
+
+/*...................................................Logo.................................................*/
+.ImglogoF{
     width: 80%;
 }
 
 
+/*................................................Contenidos..............................................*/
+.TextTituloFooter1{
+    text-align: center;
+    color: #332765;
+}
+.Separa1{
+    display: flex;
+    justify-content: center;
+    color: #332765;
+}
+.TextLiFooter{
+    font-size: 1.1em;
+}
+.TextLiFooter1{
+    list-style: none;
+}
+.linkAfooter{
+    text-decoration:none;
+    color: black;
+    font-size: 1.1em;
+}
+.linkAfooter:hover{
+    text-decoration:none;
+    color:#6F67BC;
+}
+
+/*...............................................Iconos redes.............................................*/
+.CajaImagenIcono{
+    width: 100%;
+}
+.ImagenIcono{
+    width: 25%;
+    margin: 5px;
+}
+/*.............................................Derechos de autor...........................................*/
+.DerechosCaja{
+    display: flex;
+    justify-content: center;
+}
+.DerechosCaja{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+.DerechosText{
+    font-size: 0.9em;
+}
+
+
+
+
+/*.................................................HOME........................................................*/
+
+
+/*...........................................Banner Principal..................................................*/
+
+/*..............................................Generales......................................................*/
+.justifica_Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marBanner{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*............................................Contenido texto..................................................*/
+.justifica_TextB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PadTextB{
+    padding: 20px;
+    margin: 25px;
+}
+.TamaFuente{
+    font-size: 1.2em;
+    text-align: center;
+}
+.TamaFuenteT{
+    text-align: center;
+    color: #332765;
+}
+.BotonBannerM{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: transparent;
+    border: none;
+    width: 35%;
+}
+.BotonMH{
+    width: 100%;
+}
+.BotonMH:hover{
+    content: url("../images/HOME/iconos/BotonSmH.png");
+    width: 100%;
+}
+
+.justifica_TextB1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.PadTextB1{
+    padding: 35px;
+}
+.colorB1{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+}
+
+
+/*............................................Botones Carrusel.................................................*/
+.BotonCam{
+    width: 80%;
+}
 
 .fondoC1{
-    background-image: url("../images/HOME/images/multi_ima.png");
-    background-size: 100% 100%;
+    background-image: url("../images/HOME/images/multi_ima.jpg");
+    background-size: 100%;
     background-position: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .fondoC2{
-    background-image: url("../images/HOME/images/Inge_ima.png");
-    background-size: 100% 100%;
+    background-image: url("../images/HOME/images/Inge_ima.jpg");
+    background-size: 100%;
     background-position: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .fondoC3{
-    background-image: url("../images/HOME/images/Funda_image.png");
-    background-size: 100% 100%;
+    background-image: url("../images/HOME/images/Funda_image.jpg");
+    background-size: 100%;
     background-position: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
-
 
 
 .BotonAn{
@@ -384,9 +546,459 @@
     background:0 0;
     border:0;
     opacity:.5;
-    transition:opacity .15s ease
+    transition:opacity .15s ease;
+    left: 0;
 }
 .BotonAn:hover{
     opacity:.9
 }
 
+.BotonDes{
+    position:absolute;
+    top:0;
+    bottom:0;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:7%;
+    background:0 0;
+    border:0;
+    opacity:.5;
+    transition:opacity .15s ease;
+    right: 0;
+}
+.BotonDes:hover{
+    opacity:.9
+}
+
+/*..............................................Contenidos...........................................*/
+
+/*..............................................Generales............................................*/
+.justifica_Conte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marConte{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*...............................................Botones...............................................*/
+.justifica_ConteB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BotonMedia{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    width: 25%;
+}
+.BotonMediaM{
+    width: 100%;
+}
+.BotonMediaM:hover{
+    width: 96%;
+    margin: 5px;
+}
+
+
+/*..........................................Sobre el proyecto.............................................*/
+
+/*...............................................Generales................................................*/
+.justifica_Proye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marProye{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 25px;
+    background-color: #6F67BC;
+}
+
+
+.justifica_Proye1{
+    display: flex;
+    justify-content: center;
+}
+.FondoProye{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+}
+
+.TextTituloProye{
+    margin: 30px;
+    color: #FDB743;
+}
+
+.CajaCoProye{
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+}
+.CajaCoProye1{
+    width: 45%;
+    margin: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.TextContProye{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/*...............................................Fin del HOME...........................................*/
+
+
+
+
+
+
+
+
+/*..............................................La multimedia............................................*/
+
+
+
+/*...........................................Titulo de la pagina.........................................*/
+
+/*................................................Generales..............................................*/
+.justifica_Titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marTitulo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.justifica_Titulo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marTitulo1{
+    padding: 10px;
+}
+
+/*.................................................Textos..................................................*/
+.TextoTitulo1{
+    text-decoration:none;
+    color: #332765;
+}
+.TextoTitulo1:hover{
+    text-decoration:none;
+    color:#6F67BC;
+}
+.TextoTitulo3{
+    font-size: 1.1em;
+}
+.TextoTitulo2{
+    color: #332765;
+}
+
+
+
+
+/*.........................................Definicion Multimedia.........................................*/
+
+/*................................................Generales..............................................*/
+.justifica_Definicion_Multi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marDefi_Multi{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #6F67BC;
+}
+.marDefi_Multi1{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.justifica_Definicion_Multi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*.................................................Temas................................................*/
+
+.DefiTama{
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.DefiTama1{
+    width: 40%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.DefiCaja{
+    width: 100%;
+}
+
+.DefiCajaB{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.DefiCajaB1{
+    display: flex;
+    transition: transform 0.4s ease;
+}
+.DefiCajaBConten{
+    min-width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.Next{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: transparent;
+    border: none;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Pre{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: transparent;
+    border: none;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ButtonDefi1{
+    width: 100%;
+}
+.ButtonDefi1:hover{
+    content: url("../images/HOME/iconos/BotonAh.png");
+    width: 100%;
+}
+.ButtonDefi2{
+    width: 100%;
+}
+.ButtonDefi2:hover{
+    content: url("../images/HOME/iconos/BotonDh.png");
+    width: 100%;
+}
+
+.ImagenDefi{
+    width: 100%;
+}
+
+.CajaDefiUnoA{
+    color: #332765;
+    padding-top: 15px;
+}
+.CajaDefiUnoB{
+    padding: 15px;
+}
+.TextoDef1{
+    font-size: 1.2em;
+}
+
+
+
+
+
+/*.........................................Tipos de formato Multimedia.......................................*/
+
+/*................................................Generales..................................................*/
+.justifica_TiposF_Multi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marTiposF_Multi{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.justifica_TiposF_Multi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marTiposF_Multi1{
+    padding: 10px;
+}
+
+/*............................................Contenido texto..................................................*/
+.TextTituloTiposF{
+    margin: 30px;
+    color: #332765;
+}
+
+.justifica_TiposF_Multi_cajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PadTiposF_Multi_cajas{
+    padding: 20px;
+    margin: 25px;
+}
+
+.TamCajaTipo{
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.TamaFuente{
+    font-size: 1.2em;
+    text-align: center;
+}
+.TamaFuenteT{
+    text-align: center;
+    color: #332765;
+}
+.BotonBannerM{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: transparent;
+    border: none;
+    width: 35%;
+}
+.BotonMH{
+    width: 100%;
+}
+.BotonMH:hover{
+    content: url("../images/HOME/iconos/BotonSmH.png");
+    width: 100%;
+}
+
+.justifica_TextB1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.PadTextB1{
+    padding: 35px;
+}
+.colorB1{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+}
+
+
+/*............................................Botones Carrusel.................................................*/
+.BotonCam{
+    width: 80%;
+}
+
+.fondoC1{
+    background-image: url("../images/HOME/images/multi_ima.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.fondoC2{
+    background-image: url("../images/HOME/images/Inge_ima.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.fondoC3{
+    background-image: url("../images/HOME/images/Funda_image.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+.BotonAn{
+    position:absolute;
+    top:0;
+    bottom:0;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:7%;
+    background:0 0;
+    border:0;
+    opacity:.5;
+    transition:opacity .15s ease;
+    left: 0;
+}
+.BotonAn:hover{
+    opacity:.9
+}
+
+.BotonDes{
+    position:absolute;
+    top:0;
+    bottom:0;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:7%;
+    background:0 0;
+    border:0;
+    opacity:.5;
+    transition:opacity .15s ease;
+    right: 0;
+}
+.BotonDes:hover{
+    opacity:.9
+}
