@@ -10,264 +10,6 @@ p{
 }
 
 
-/*HOME*/
-
-
-.alt{
-    margin-top: 10px;
-}
-.pat{
-    padding: 15px;
-    margin: 20px;
-}
-
-/*ENCABEZADO*/
-.borde{
-    background-color: darkgrey;
-    border: 2px black solid;
-}
-.tam{
-    height: 60px;
-}
-
-/*ENCABEZADO CONTENIDO*/
-.bordeC{
-    background-color: gray;
-    border: 2px black solid;
-}
-.tamC{
-    height: 50px;
-    padding: 2px;
-}
-.tamD{
-    height: 40px;
-}
-.justy1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*BANNER*/
-.justy2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.tamS1{
-    height: 500px;
-    margin-top: 10px;
-}
-.tamS2{
-    height: 400px;
-    overflow: hidden;
-}
-.tamS21{
-    height: 150px;
-}
-.tamS22{
-    height: 150px;
-}
-.tamS221{
-    height: 350px;
-}
-.tamS23{
-    height: 70px;
-}
-.tamS3{
-    height: 350px;
-}
-
-/*CONTENIDOS*/
-.tamT1{
-    height: 350px;
-    margin-top: 10px;
-}
-.tamT2{
-    height: 250px;
-}
-.tamT3{
-    height: 230px;
-}
-.tamT4{
-    height: 80px;
-}
-.bordeR{
-    background-color: gray;
-    border: 2px black solid;
-    border-radius: 100px;
-    height: 200px;
-    width: 50%;
-}
-.bordeR:hover{
-    background-color: gainsboro;
-    border: 2px black solid;
-    border-radius: 100px;
-    transform: scale(105%);
-}
-.justy3{
-    display: flex;
-}
-.M{
-    margin-bottom: 10px;
-}
-
-/*FOOTER*/
-.tamM1{
-    height: 300px;
-    margin-top: 10px;
-}
-.tamM2{
-    height: 200px;
-}
-.tamM21{
-    height: 180px;
-}
-.tamM3{
-    height: 50px;
-}
-.tamM31{
-    height: 20px;
-}
-
-/*FIN DEL HOME*/
-
-
-
-/*LA MULTIMEDIA*/
-.justy4{
-    display: flex;
-}
-.alt1{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.pad{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.tamK{
-    height: 100px;
-}
-.tamW{
-    height: 450px;
-}
-.tamW1{
-    height: 300px;
-}
-.tamW11{
-    height: 80px;
-}
-.tamW12{
-    height: 220px;
-}
-.tamW2{
-    height: 100px;
-}
-
-/*carrusel*/
-
-.DefC{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin: auto;
-}
-.DefT{
-    display: flex;
-    transition: transform 0.4s ease;
-}
-.DefIt{
-    min-width: 100%;
-    text-align: center;
-}
-
-/*---------*/
-.tama{
-    height: 300px;
-    width: 30%;
-    margin-left: 15px;
-}
-.justy5{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-}
-.tama1{
-    height: 80px;
-    width: 100%;
-}
-.justy6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.tamR{
-    height: 500px;
-    margin-top: 10px;
-}
-.tamR1{
-    height: 80px;
-}
-.tamS6{
-    height: 950px;
-    margin-top: 10px;
-}
-.tamN{
-    height: 600px;
-    margin-top: 10px;
-}
-.tamN1{
-    height: 80px;
-}
-.tamN2{
-    height: 520px;
-}
-.po{
-    position: absolute;
-    background-color: white;
-    padding: 10px;
-    border: 2px black solid;
-}
-
-
-
-/*IMAGEN*/
-.imgk{
-    width: 100%;
-    height: 100%;
-}
-.imgH{
-    background: url("../images/sin_imagen.png");
-    background-size: 100% 100%;
-    background-position: center;
-}
-
-
-.tamL{
-    height: 600px;
-    margin-top: 10px;
-}
-.tamL1{
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.tamL2{
-    height: 45px;
-}
-
-
-
-
-
-
-
-
-
 /*.................................................Encabezado..................................................*/
 
 /*.................................................Generales...................................................*/
@@ -644,19 +386,25 @@ p{
 
 .CajaCoProye{
     width: 45%;
-    margin: 20px;
-    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .CajaCoProye1{
     width: 45%;
     margin: 20px;
     padding-bottom: 40px;
     padding-top: 40px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .TextContProye{
     font-size: 1.2em;
     text-align: center;
+}
+.Image_Proyecto1{
+    width: 100%;
 }
 
 /*...............................................Fin del HOME...........................................*/
@@ -878,94 +626,134 @@ p{
 .PadTiposF_Multi_cajas{
     padding: 20px;
     margin: 25px;
+    height: 25em;
 }
 
 .TamCajaTipo{
     width: 30%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.TamaFuente{
-    font-size: 1.2em;
-    text-align: center;
-}
-.TamaFuenteT{
-    text-align: center;
-    color: #332765;
-}
-.BotonBannerM{
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 1px;
-    margin-right: 1px;
-    background-color: transparent;
-    border: none;
-    width: 35%;
-}
-.BotonMH{
+.ImagenTM1{
     width: 100%;
-}
-.BotonMH:hover{
-    content: url("../images/HOME/iconos/BotonSmH.png");
-    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
-.justifica_TextB1{
+.Gira{
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+
+    width: 30%;
+    height: 100%;
+    margin: 15px;
+}
+
+/* Giro al pasar el mouse */
+.Gira:hover{
+    transform: rotateY(180deg);
+}
+
+.Gira1,.Gira2a,.Gira2b,.Gira2c,.Gira2d,.Gira2e,.Gira2f{
+    backface-visibility: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+     width: 100%;
+    height: 100%;
+}
+
+.Gira1{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.Gira2a{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transform: rotateY(180deg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/Multimedia/images/Texto.jpg");
+    background-size: cover;
+    background-color: #332765;
 }
-.PadTextB1{
-    padding: 35px;
+.Gira2b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transform: rotateY(180deg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/Multimedia/images/Sonido.jpg");
+    background-size: cover;
+    background-color: #332765;
 }
-.colorB1{
+.Gira2c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transform: rotateY(180deg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/Multimedia/images/Video.jpg");
+    background-size: cover;
+    background-color: #332765;
+}
+.Gira2d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transform: rotateY(180deg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/Multimedia/images/Imagen.jpg");
+    background-size: cover;
+    background-color: #332765;
+}
+.Gira2e{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transform: rotateY(180deg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/Multimedia/images/Animacion.jpg");
+    background-size: cover;
+    background-color: #332765;
+}
+.Gira2f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transform: rotateY(180deg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/Multimedia/images/Grafico.jpg");
+    background-size: cover;
+    background-color: #332765;
+}
+.CajaTtitulo{
+    color: #332765;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 15px;
+    padding: 10px;
+}
+.CajaTtexto{
+    font-size: 1.1em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
 }
 
 
 /*............................................Botones Carrusel.................................................*/
-.BotonCam{
-    width: 80%;
-}
 
-.fondoC1{
-    background-image: url("../images/HOME/images/multi_ima.jpg");
-    background-size: 100%;
-    background-position: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-.fondoC2{
-    background-image: url("../images/HOME/images/Inge_ima.jpg");
-    background-size: 100%;
-    background-position: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-.fondoC3{
-    background-image: url("../images/HOME/images/Funda_image.jpg");
-    background-size: 100%;
-    background-position: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-
-.BotonAn{
+.BotonAnTipos{
     position:absolute;
     top:0;
     bottom:0;
@@ -980,11 +768,11 @@ p{
     transition:opacity .15s ease;
     left: 0;
 }
-.BotonAn:hover{
+.BotonAnTipos:hover{
     opacity:.9
 }
 
-.BotonDes{
+.BotonDesTipos{
     position:absolute;
     top:0;
     bottom:0;
@@ -999,6 +787,384 @@ p{
     transition:opacity .15s ease;
     right: 0;
 }
-.BotonDes:hover{
+.BotonDesTipos:hover{
     opacity:.9
+}
+
+
+
+
+
+
+
+/*......................................Caracteristicas de la Multimedia.....................................*/
+
+/*................................................Generales..................................................*/
+.justifica_Cara_Multi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marCara_Multi{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.FondoCara{
+    background-color: #6F67BC;
+}
+.FondoCara2{
+    background-color: #FDB743;
+}
+
+
+
+/*................................................Titulo..................................................*/
+.justifica_Cara_Multi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marCara_Multi1{
+    padding: 10px;
+}
+.TextTituloCara{
+    margin: 30px;
+    color: #FDB743;
+}
+.TextTituloCara1{
+    margin: 30px;
+    color: #332765;
+}
+
+/*................................................Cajas contenidos..................................................*/
+.justifica_Cara_Multi2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.justifica_Cara_Multi3{
+    display: flex;
+    justify-content: center;
+
+}
+.CajaCara{
+    width: 40%;
+    margin: 20px;
+    border-radius:20px;
+    overflow: hidden;
+}
+.CajaCara1{
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    background-color:  rgba(255, 255, 255, 0.5);
+    border-radius:20px;
+}
+.CajaCara2{
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    background-color:  rgba(117, 109, 189, 0.5);
+    border-radius:20px;
+}
+.Imacara{
+    width: 100%;
+}
+.lineaCara{
+    border-bottom: 2px solid #332765;
+}
+
+
+/*................................................Cajas texto..................................................*/
+.CajaCaratitulo{
+    color: #332765;
+    padding: 10px;
+}
+.CajaCaratexto{
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+/*..........................................Tipologias Mulrimedia...........................................*/
+
+/*................................................Generales..................................................*/
+.justifica_Gias_Multi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marGias_Multi{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+/*................................................Titulo..................................................*/
+.justifica_Gias_Multi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marGias_Multi1{
+    padding: 10px;
+}
+.TextTituloGias{
+    margin: 30px;
+    color: #332765;
+}
+
+
+/*................................................Caja carrusel..................................................*/
+.GiaCaja{
+    padding: 20px;
+    background-color: #FDB743;
+}
+.GiaCaja2{
+    padding: 20px;
+    background-color: #6F67BC;
+}
+
+/*................................................Caja carrusel contenido..................................................*/
+.justifica_Gias_Multi2{
+    display: flex;
+    justify-content: center;
+}
+.justifica_Gias_Mult3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.CajaGiasC{
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:20px;
+    overflow: hidden;
+}
+.CajaGiasC1{
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius:20px;
+    background-color:  rgba(255, 255, 255, 0.5);
+}
+.ImageGias{
+    width: 100%;
+}
+.TextTituGias{
+    color: #332765;
+}
+.GiasTitulo{
+    color: #332765;
+    padding: 10px;
+    border-bottom: 2px solid #332765;
+}
+.GiasTexto{
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/*..........................................Tipologias Multimedia...........................................*/
+
+/*................................................Generales..................................................*/
+.justifica_Fase_Multi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marFase_Multi{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+/*................................................Titulo..................................................*/
+.justifica_Fase_Multi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marFase_Multi1{
+    padding: 10px;
+}
+.TextTituloFase{
+    margin: 20px;
+    color: #332765;
+}
+
+/*................................................Video..................................................*/
+.videoMulti{
+    border-radius:20px;
+    overflow: hidden;
+    border: 2px solid #332765;
+}
+
+
+
+
+
+
+
+/*..............................................El Ingeniero............................................*/
+
+
+
+/*...........................................Contenido de botones.........................................*/
+
+/*................................................Generales..............................................*/
+.justifica_Campos_Inge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marCampos_Inge{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.FondoCampos{
+    background-color: #6F67BC;
+}
+
+/*................................................Titulo..............................................*/
+.justifica_Campos_Inge1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marCampos_Inge1{
+    padding: 10px;
+}
+.TituloCampos{
+    margin: 20px;
+    color: #FDB743;
+}
+
+/*................................................Botones navegacion..............................................*/
+.botonCampo{
+    list-style: none;
+    padding: 10px;
+}
+.BotonCampo1{
+    width: 15%;
+}
+.BotonCampo2{
+    width: 17%;
+}
+.CajaCam{
+    margin-top: 20px;
+}
+.radioCam{
+    border-radius: 20px 20px 0px 0px;
+    background-color: white;
+}
+
+.BotonCajaTag{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: transparent;
+    border: none;
+}
+
+.BotonCajaTag_ani{
+    width: 100%;
+}
+.BotonCajaTag_ani:hover{
+    content: url("../images/Multimedia/iconos/AniH.png");
+    width: 100%;
+}
+
+.BotonCajaTag_apli{
+    width: 100%;
+}
+.BotonCajaTag_apli:hover{
+    content: url("../images/Multimedia/iconos/ApliH.png");
+    width: 100%;
+}
+
+.BotonCajaTag_mark{
+    width: 100%;
+}
+.BotonCajaTag_mark:hover{
+    content: url("../images/Multimedia/iconos/MarkH.png");
+    width: 100%;
+}
+
+.BotonCajaTag_vide{
+    width: 100%;
+}
+.BotonCajaTag_vide:hover{
+    content: url("../images/Multimedia/iconos/VideH.png");
+    width: 100%;
+}
+
+.BotonCajaTag_edu{
+    width: 100%;
+}
+.BotonCajaTag_edu:hover{
+    content: url("../images/Multimedia/iconos/EduH.png");
+    width: 100%;
+}
+
+
+/*................................................Contenido Campos..............................................*/
+.justifica_Campos_Co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.justifica_Campos_Co1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FondoCampos1{
+    background-color:  rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 20px 20px ;
+}
+.CajaCoCamp{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:  rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+.CajaCoCamp1{
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.ImaCoCamp{
+    width: 100%;
+}
+.CampoTitulo{
+    color: #332765;
+    padding: 10px;
+    border-bottom: 2px solid #332765;
+}
+.CampoTexto{
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
 }
